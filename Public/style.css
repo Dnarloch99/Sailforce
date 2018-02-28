@@ -17,3 +17,20 @@ margin-left: -8px;
 margin-left: 66%;
     margin-top: -24%;
 }
+
+/*parallax css*/
+.parallax {
+    /* The image used */
+    background-image: url(sailforce_trip_11.jpeg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-top:5%;
+}
