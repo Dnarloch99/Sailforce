@@ -4,9 +4,8 @@ body, html {
 .container {
     width:100%;
 }
-#balk {
-margin-left: -8px;
-}
+
+
     /*Header*/
 .header {
     width: 100%;
@@ -80,3 +79,10 @@ margin-left: -8px;
     height:100%;
     width: auto;
 }
+    /*slider*/
+    #carousel-container {
+        background: #eee;
+        width: 50%;
+        height:50%;
+    }
+ 
