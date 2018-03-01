@@ -4,12 +4,32 @@ body, html {
 #balk {
 margin-left: -8px;
 }
-
-#header {
-    margin-top: -20px;
-    margin-left: -8px;
+    /*Header*/
+.header {
+    width: 100%;
+    height:auto;
 }
-
+.header_text {
+    height:27%;
+    width:33%;
+    background:rgba(0,0,0,0.9);
+    position: absolute;
+    z-index: 100;
+    margin-left:62%;
+    margin-top:25%;
+    font-family: Verdana;
+    font-size:13px;
+    
+    
+    color:white;
+    padding-left:2.5%;
+    padding-top:1%;
+}
+.header_text h1{
+    font-size:38px;
+    font-family: PF Din Stencil, Verdana;
+}
+    /*blokken*/
 #blok1 {
 
     margin-top: 150px;
@@ -17,11 +37,11 @@ margin-left: -8px;
 }
 
 #blok2 {
-margin-left: 66%;
+    margin-left: 66%;
     margin-top: -24%;
 }
 
-/*parallax css*/
+    /*parallax css*/
 .parallax {
     /* The image used */
     background-image: url(sailforce_trip_11.jpeg);
@@ -37,6 +57,8 @@ margin-left: 66%;
     
     margin-top:5%;
 }
+
+    /*navbar*/
 .navbar {
     background-color:#d2202f;
     height:15%;
@@ -45,4 +67,15 @@ margin-left: 66%;
 .navbar-toggler {
     margin-left:90%;
     color:black;
+}
+.navbar .nav-item .nav-link {
+    color:white;
+}
+
+    /*Logo*/
+.Logo {
+    position: absolute;
+    z-index: 100;
+    height:15%;
+    width: auto;
 }
