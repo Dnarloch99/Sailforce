@@ -123,24 +123,10 @@ body, html {
 .navbar .nav-item .nav-link {
     color:white;
 }
-<<<<<<< Updated upstream
-
-    /*Logo*/
-.Logo {
-    height:100%;
-    width: auto;
-}
     /*slider*/
     #carousel-container {
         background: #eee;
         width: 50%;
         height:50%;
     }
- 
-=======
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 16px;
-  }
-}
->>>>>>> Stashed changes
+
