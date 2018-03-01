@@ -12,12 +12,10 @@ body, html {
     height:auto;
 }
 .header_text {
-    height:27%;
-    width:33%;
     background:rgba(0,0,0,0.9);
     position: absolute;
     z-index: 100;
-    margin-left:52%;
+    margin-left:62%;
     margin-top:25%;
     font-family: Verdana;
     font-size:13px;
@@ -60,19 +58,72 @@ body, html {
     margin-top:5%;
 }
 
-    /*navbar*/
-.navbar {
-    background-color:#d2202f;
-    height:15%;
+.navbar-kleur {
+    background-color: #d11f39 !important;
+}
+
+@media (min-width: 1250px) {
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-expand-custom .navbar-collapse {
+        display: flex !important;
+    }
+
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
+
+.navbar-style {
+    font-family: PF Din Stencil, Verdana;
+}
+
+.navbar-style * {
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.navbar-style li {
+    display: inline-block;
+    margin: 0 14px 14px;
+    overflow: hidden;
+}
+
+.navbar-style a {
+    position: relative;
+    letter-spacing: 1px;
+}
+
+
+.navbar-style a:before {
+    bottom: 100%;
+    height: 3px;
     width: 100%;
+    content: "";
 }
-.navbar-toggler {
-    margin-left:90%;
-    color:black;
+
+.navbar-style a:after {
+    padding: 0.3em 0;
+    position: absolute;
+    bottom: 100%;
+    left: 1px;
+    content: attr(data-hover);
+    color: white;
+    white-space: nowrap;
 }
+
 .navbar .nav-item .nav-link {
     color:white;
 }
+<<<<<<< Updated upstream
 
     /*Logo*/
 .Logo {
@@ -86,3 +137,10 @@ body, html {
         height:50%;
     }
  
+=======
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+>>>>>>> Stashed changes
