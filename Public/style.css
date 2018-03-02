@@ -7,22 +7,23 @@ body, html {
 
 
     /*Header*/
-  
+.card{
+    overflow:hidden;
+    border: 0px !important;
+    }
 .card-img-caption .card-img-top {
   z-index: 0;
 }
     
 .card-img-caption .card-text {
     text-align: center;
-    width: 30%;
-    margin: 33% 62%;
+    width: 32%;
+    margin: 32% 62%;
     position: absolute;
     z-index: 1;
     color:white;
     background:rgba(0,0,0,0.9);
-    padding-left:2.5%;
-    padding-top:1%;
-    padding-bottom:1%;
+    padding: 1%;
 }
 .Box_text{
     font-size:20px;
@@ -38,6 +39,11 @@ body, html {
     margin-top:5%;
 }
 
+.TB_1 {
+}
+
+.TB_2 {
+}
     /*parallax css*/
 .parallax {
     /* The image used */
