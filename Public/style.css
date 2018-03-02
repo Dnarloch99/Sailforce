@@ -32,15 +32,12 @@ body, html {
     font-family: PF Din Stencil, Verdana;
 }
     /*blokken*/
-#blok1 {
-
-    margin-top: 150px;
-    margin-left: 280px;
+.button_1 {
+    margin-top:5%;
 }
 
-#blok2 {
-    margin-left: 66%;
-    margin-top: -24%;
+.button_2 {
+    margin-top:5%;
 }
 
     /*parallax css*/
