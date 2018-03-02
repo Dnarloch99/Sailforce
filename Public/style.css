@@ -7,30 +7,28 @@ body, html {
 
 
     /*Header*/
-.header {
-    width: 100%;
-    height:auto;
+  
+.card-img-caption .card-img-top {
+  z-index: 0;
 }
-.header_text {
-   position: absolute; 
-   top: 200px; 
-   left: 0;  
-   background:rgba(0,0,0,0.9);
-   color:white;
-   margin-left:62%;
-   margin-top:20%;
     
-    font-family: Verdana;
-    font-size:13px;
-    float:right;
-    
+.card-img-caption .card-text {
+    text-align: center;
+    width: 30%;
+    margin: 33% 62%;
+    position: absolute;
+    z-index: 1;
+    color:white;
+    background:rgba(0,0,0,0.9);
     padding-left:2.5%;
     padding-top:1%;
+    padding-bottom:1%;
 }
-.head_title{
+.Box_text{
     font-size:20px;
-    font-family: PF Din Stencil, Verdana;
+    font-family: PF Din Stencil, Verdana; 
 }
+
     /*blokken*/
 .button_1 {
     margin-top:5%;
