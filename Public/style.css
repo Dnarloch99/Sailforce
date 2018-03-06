@@ -23,7 +23,7 @@ body, html {
     z-index: 1;
     color:white;
     background:rgba(0,0,0,0.9);
-    padding: 1%;
+    padding: 1.5%;
 }
 .Box_text{
     font-size:20px;
@@ -32,17 +32,34 @@ body, html {
 
     /*blokken*/
 .button_1 {
-    margin-top:5%;
+    margin-top:15%;
 }
 
 .button_2 {
-    margin-top:5%;
+    margin-top:15%;
 }
 
 .TB_1 {
+    position:absolute;
+    z-index:1;
+    margin-top:50%;
+    margin-left:15%;
+    color:white;
+    font-family: Verdana;
 }
 
 .TB_2 {
+    position:absolute;
+    z-index:1;
+    margin-top:50%;
+    margin-left:15%;
+    color:white;
+    font-family: Verdana;
+}
+
+.button_titel {
+    font-size:125%;
+    font-family: PF Din Stencil, Verdana;
 }
     /*parallax css*/
 .parallax {
@@ -50,7 +67,9 @@ body, html {
     background-image: url(sailforce_trip_11.jpeg);
 
     /* Full height */
-    height: 100%;
+    height:75%;
+    width: 100%;
+    margin-top:5%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -58,7 +77,6 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     
-    margin-top:5%;
 }
 
 .navbar-kleur {
@@ -129,7 +147,31 @@ body, html {
     /*slider*/
     #carousel-container {
         background: #eee;
-        width: 50%;
-        height:50%;
+        margin-top:12%;
+        margin-bottom:5%;
+        height:40%;
     }
+    
+/*    Youtube placeholder*/
+.yt_place {
+    margin-left:6%;
+    height:100%;
+    width:100%;
+    padding:1%;
+}
 
+.reviews {
+    background-color:grey;
+    margin-top:1%;
+}
+
+/*De teksten*/
+.tekst {
+    margin-top:5%;
+}
+.tekst p {
+    font-family:Verdana;
+}
+.tekst h1 {
+    font-family:PF Din Stencil, Verdana;
+}
