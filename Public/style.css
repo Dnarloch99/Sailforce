@@ -156,6 +156,7 @@ body, html {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+    margin-left: 42%;
   font-family: PF Din Stencil, Verdana;
 }
 
@@ -197,4 +198,17 @@ h2 {
 text-align: center;
 }
 
+.tekstvlak2 {
+text-align: left;
+margin-left: 371px;
+}
+    
+.tekstvlak3 {
+text-align: left;
+margin-left:  407px;
+}
 
+
+.rondje {
+margin-left: 30px; 
+}
