@@ -8,6 +8,7 @@ body, html {
 
 
     /*Header*/
+    
 .card{
     overflow:hidden;
     border: 0px !important;
@@ -32,6 +33,7 @@ body, html {
 }
 
     /*blokken*/
+    
 .button_1 {
     margin-top:15%;
 }
@@ -62,23 +64,8 @@ body, html {
     font-size:125%;
     font-family: PF Din Stencil, Verdana;
 }
-    /*parallax css*/
-.parallax {
-    /* The image used */
-    background-image: url(sailforce_trip_11.jpeg);
 
-    /* Full height */
-    height:75%;
-    width: 100%;
-    margin-top:5%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
+/* navbar*/ 
 
 .navbar-kleur {
     background-color: #d11f39 !important;
@@ -145,21 +132,79 @@ body, html {
 .navbar .nav-item .nav-link {
     color:white;
 }
+ /*parallax css*/
+ 
+.parallax {
+    /* The image used */
+    
+    background-image: url(sailforce_trip_11.jpeg);
+
+    /* Full height */
+    
+    height:75%;
+    width: 100%;
+    margin-top:5%;
+
+    /* Create the parallax scrolling effect */
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
     /*slider*/
+    
     #carousel-container {
         background: #eee;
         margin-top:12%;
         margin-bottom:5%;
         height:40%;
+        width: 203%;
         margin-top: 20%;
         margin-bottom: 20%;
         box-shadow : 0 0 10px -2px #ddd ;
     }
+    /* slider buttons links&rechts*/
+    
+    .carousel-control-prev,.carousel-control-next{
+      bottom: 1%;
+}
+    .carousel-control-prev-icon,.carousel-control-next-icon {
+      height: 50px;
+      width: 50px;
+      background-image: none !important;
+}
+
+    .carousel-control-next-icon:after
+    {
+      content: '>';
+      font-size: 40px;
+      color: black;
+}
+
+    .carousel-control-prev-icon:after {
+      content: '<';
+      font-size: 40px;
+      color: black;
+}
+    /*slider text*/
+    
     .carousel-item {
-        color: lime;
-    }
+        color: black;
+        bottom: 100%;
+        font-size: 20px;
+        
+}
+    /*video slider*/
+    
+    .video {
+        float: right;
+}
+    
     
 /*    Youtube placeholder*/
+
 .yt_place {
     margin-left:6%;
     height:100%;
@@ -172,16 +217,7 @@ body, html {
     margin-top:1%;
 }
 
-/*De teksten*/
-.tekst {
-    margin-top:5%;
-}
-.tekst p {
-    font-family:Verdana;
-}
-.tekst h1 {
-    font-family:PF Din Stencil, Verdana;
-}
+
 
 /* offerte button */
 
@@ -227,10 +263,17 @@ body, html {
   right: 0;
 }
 
+/*De teksten*/
 
-<<<<<<< HEAD
-/* offerte button */
-
+.tekst {
+    margin-top:5%;
+}
+.tekst p {
+    font-family:Verdana;
+}
+.tekst h1 {
+    font-family:PF Din Stencil, Verdana;
+}
 
 .tekstvlak {
 text-align: left;
@@ -250,12 +293,7 @@ margin-left: 244px;
 text-align: left;
 margin-left:  407px;
 }
-
-
-.rondje {
-margin-left: 30px; 
-}
-
+/*Footer*/
 
 .footer {
  
@@ -268,9 +306,3 @@ margin-left: 30px;
    height: 17%
 }
 
-
-
-
-
-=======
->>>>>>> homepage
