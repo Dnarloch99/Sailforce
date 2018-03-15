@@ -5,7 +5,9 @@ body, html {
 .container {
     width:100%;
 }
-
+.row {
+    width:100%;
+}
 
     /*Header*/
     
@@ -132,7 +134,7 @@ body, html {
 .navbar .nav-item .nav-link {
     color:white;
 }
- /*parallax css*/
+    /*parallax css*/
  
 .parallax {
     /* The image used */
@@ -157,12 +159,9 @@ body, html {
     
     #carousel-container {
         background: #fff;
-        margin-top:12%;
         margin-bottom:5%;
         height:40%;
-        width: 203%;
-        margin-top: 20%;
-        margin-bottom: 20%;
+        margin-bottom: 15%;
         box-shadow : 0 0 10px -2px #ddd ;
     }
     /* slider buttons links&rechts*/
@@ -197,21 +196,9 @@ body, html {
         
 }
     /*video slider*/
-    
-
-    
-    
-/*    Youtube placeholder*/
-
-.yt_place {
-    margin-left:6%;
-    height:100%;
-    width:100%;
-    padding:1%;
-}
 
 .reviews {
-    background-color:grey;
+    background-color:white;
     margin-top:1%;
 }
 
@@ -228,11 +215,10 @@ body, html {
   text-align: center;
   font-size: 20px;
   padding: 13px;
-  width: 230px;
+/*  width: 230px;*/
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-    margin-left: 42%;
   font-family: PF Din Stencil, Verdana;
 }
 
@@ -248,12 +234,11 @@ body, html {
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
   transition: 0.5s;
 }
 
 .button:hover span {
-  padding-right: 25px;
+    padding-right: 25px;
 }
 
 .button:hover span:after {
@@ -273,23 +258,8 @@ body, html {
     font-family:PF Din Stencil, Verdana;
 }
 
-.tekstvlak {
-text-align: left;
-margin-left:  242px;
-}
-
 h2 {
 text-align: center;
-}
-
-.tekstvlak2 {
-text-align: left;
-margin-left: 244px;
-}
-    
-.tekstvlak3 {
-text-align: left;
-margin-left:  407px;
 }
 /*Footer*/
 
