@@ -220,6 +220,7 @@ body, html {
   cursor: pointer;
   margin: 5px;
   font-family: PF Din Stencil, Verdana;
+  margin-left: 32%;
 }
 
 .button span {
@@ -261,6 +262,67 @@ body, html {
 h2 {
 text-align: center;
 }
+
+/*FOTO GALLERY*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery {
+  width: 640px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 250px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+.kvertellen {
+margin-left: 51%;
+margin-top: -8%;
+}
+
+.touw {
+align-items: center;
+justify-content: center;
+}
+
+
+
+
 /*Footer*/
 
 .footer {
