@@ -9,7 +9,7 @@ body, html {
     width:100%;
 }
 
-    /*Header*/
+/*    Header*/
     
 #thisbanner {
   max-width: 100%;
@@ -24,7 +24,6 @@ h1 {
   max-width: 55%;
   font-size: 2.6vmin;
   font-family: Verdana;
-  font-weight: bold;
   padding: .6em 1em .6em 1.7em;
   color:white;
   background:rgba(0,0,0,0.9);
@@ -40,7 +39,7 @@ h1 {
   width: 100%;
   height: auto;  }
 
-    /*blokken*/
+/*blokken*/
     
 .button_1 {
     margin-top:15%;
@@ -140,7 +139,7 @@ h1 {
 .navbar .nav-item .nav-link {
     color:white;
 }
-    /*parallax css*/
+/*    /parallax css/*/
  
 .parallax {
     /* The image used */
@@ -161,7 +160,7 @@ h1 {
     background-size: cover;
     
 }
-    /*slider*/
+/*    /slider/*/
     
     #carousel-container {
         background: #fff;
@@ -193,7 +192,7 @@ h1 {
       font-size: 40px;
       color: black;
 }
-    /*slider text*/
+/*    /slider text/*/
     
     .carousel-item {
         color: black;
@@ -203,9 +202,10 @@ h1 {
 }
 /*    video slider*/
 
-.reviews {
-    background-color:white;
-    margin-top:1%;
+iframe {
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 5%;
 }
 
 
@@ -215,7 +215,7 @@ h1 {
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #202020;
+  background-color: #d11f39;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -226,7 +226,6 @@ h1 {
   cursor: pointer;
   margin: 5px;
   font-family: PF Din Stencil, Verdana;
-  margin-left: 32%;
 }
 
 .button span {
@@ -252,8 +251,11 @@ h1 {
   opacity: 1;
   right: 0;
 }
-
-/*De teksten*/
+.icon{
+    margin-left:88%;
+     background-color: #202020;
+}
+/*/De teksten/*/
 
 .tekst {
     margin-top:5%;
@@ -267,7 +269,24 @@ h1 {
 
 h2 {
 text-align: center;
+color: #d11f39;
+
 }
+/*/Footer/*/
+.foot{
+    background-color: #202020;
+}
+.footer {
+ 
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #202020;
+   color: white;
+   text-align: left;
+   height: 17%
+}
+
 
 /*FOTO GALLERY*/
 
@@ -316,9 +335,8 @@ text-align: center;
 }
 
 
-.kvertellen {
-margin-left: 51%;
-margin-top: -8%;
+.kvertellen{
+    margin-top:5%;
 }
 
 .touw {
@@ -341,4 +359,3 @@ justify-content: center;
    text-align: left;
    height: 17%
 }
-
