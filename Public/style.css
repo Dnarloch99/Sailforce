@@ -161,7 +161,17 @@ h1 {
     
 }
 /*    /slider/*/
-    
+.slider{
+    padding-left:12%;
+}    
+.gall{
+    margin-left:2%;
+}
+@media (max-width: 480px){
+    .gall{
+        margin-left:7%;
+    }
+}
     #carousel-container {
         background: #fff;
         margin-bottom:5%;
@@ -297,7 +307,6 @@ color: #d11f39;
 }
 
 .gallery {
-  width: 640px;
   margin: 0 auto;
   padding: 5px;
 }
@@ -309,8 +318,9 @@ color: #d11f39;
 }
 
 .gallery > div > img {
-  display: block;
-  width: 250px;
+  display:inline-block;
+  width: 13em;
+  height:auto;
   transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
