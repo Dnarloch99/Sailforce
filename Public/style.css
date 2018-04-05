@@ -353,19 +353,3 @@ color: #d11f39;
 align-items: center;
 justify-content: center;
 }
-
-
-
-
-/*Footer*/
-
-.footer {
- 
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #202020;
-   color: white;
-   text-align: left;
-   height: 17%
-}
