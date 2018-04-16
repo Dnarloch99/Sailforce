@@ -160,6 +160,25 @@ h1 {
     background-size: cover;
     
 }
+.parallax2 {
+    /* The image used */
+    
+    background-image: url(sailforce_trip_36.jpeg);
+
+    /* Full height */
+    
+    height:75%;
+    width: 100%;
+    margin-top:5%;
+
+    /* Create the parallax scrolling effect */
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 /*    /slider/*/
 .slider{
     padding-left:12%;
@@ -210,14 +229,6 @@ h1 {
         font-size: 20px;
         
 }
-/*    video slider*/
-
-iframe {
-    float: right;
-    margin-right: 10%;
-    margin-bottom: 5%;
-}
-
 
 
 /* offerte button */
@@ -344,12 +355,26 @@ color: #d11f39;
   clear: both;
 }
 
-
+@media (min-width:1000px){
+    .kvertellen{
+    margin-left:5%;
+    }
+}
 .kvertellen{
     margin-top:5%;
+/*    zodat je de border niet ziet*/
+    padding: 0px;
 }
 
 .touw {
 align-items: center;
 justify-content: center;
+}
+@media (max-width: 800px){
+    .Z_tekst{
+        display:none;
+    }
+    .F_tekst{
+        display:none;
+    }
 }
