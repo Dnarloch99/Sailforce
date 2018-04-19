@@ -236,7 +236,7 @@ h1 {
     .carousel-item {
         color: black;
         bottom: 100%;
-        font-size: 18px;
+        font-size: 20px;
         
 }
 
@@ -290,6 +290,11 @@ h1 {
 
 .tekst {
     margin-top:5%;
+
+}
+.tekst_2{
+        margin-left:5%;
+            font-family:Verdana;
 }
 .tekst p {
     font-family:Verdana;
@@ -374,6 +379,7 @@ color: #d11f39;
     margin-top:5%;
 /*    zodat je de border niet ziet*/
     padding: 0px;
+        margin-left:5%;
 }
 
 .touw {
