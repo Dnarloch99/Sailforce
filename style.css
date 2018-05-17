@@ -1,22 +1,20 @@
 body, html {
     height: 100%;
-    font-family: PF Din Stencil, Verdana; 
+    font-family:pf_din_stencilbold, Verdana; 
 }
 .container {
     width:100%;
 }
 .row {
     width:100%;
+    margin-top:5% !important;
 }
 
-    /*Header*/
+
+/*    Header*/
     
-.card{
-    overflow:hidden;
-    border: 0px !important;
-    }
-.card-img-caption .card-img-top {
-  z-index: 0;
+#thisbanner {
+  max-width: 100%;
 }
     
 .card-img-caption .card-text {
@@ -34,7 +32,41 @@ body, html {
     font-family: PF Din Stencil, Verdana; 
 }
 
-    /*blokken*/
+a {
+color: white;
+text-decoration: none;
+}
+
+a:hover {
+color: #eee5e5;
+text-decoration: none;
+}
+
+h1 {
+  position: absolute;
+  display: block;
+  width: 35%;
+  margin-top: -12%;
+  margin-left:60%;
+  max-width: 55%;
+  font-size: 2.6vmin;
+  font-family: Verdana;
+  padding: .6em 1em .6em 1.7em;
+  color:white;
+  background:rgba(0,0,0,0.9);
+}
+
+.Z_tekst {
+    font-family:pf_din_stencilbold;
+    font-size: 3.5vmin;
+}
+.interior-header img {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;  }
+
+/*blokken*/
     
 .button_1 {
     margin-top:15%;
@@ -64,7 +96,7 @@ body, html {
 
 .button_titel {
     font-size:125%;
-    font-family: PF Din Stencil, Verdana;
+    font-family:pf_din_stencilbold, Verdana;
 }
 
 /* navbar*/ 
@@ -94,7 +126,7 @@ body, html {
 }
 
 .navbar-style {
-    font-family: PF Din Stencil, Verdana;
+    font-family:pf_din_stencilbold, Verdana;
 }
 
 .navbar-style * {
@@ -134,7 +166,7 @@ body, html {
 .navbar .nav-item .nav-link {
     color:white;
 }
-    /*parallax css*/
+/*    /parallax css/*/
  
 .parallax {
     /* The image used */
@@ -155,26 +187,48 @@ body, html {
     background-size: cover;
     
 }
-    /*slider*/
+.parallax2 {
+    /* The image used */
     
+    background-image: url(sailforce_trip_36.jpeg);
+
+    /* Full height */
+    
+    height:75%;
+    width: 100%;
+    margin-top:5%;
+
+    /* Create the parallax scrolling effect */
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/*    /slider/*/
+.slider{
+    padding-left:12%;
+}    
+.gall{
+    margin-left:2%;
+}
+@media (max-width: 480px){
+    .gall{
+        margin-left:7%;
+    }
+}
     #carousel-container {
-      
         background: #fff;
         margin-bottom:5%;
         height:40%;
         margin-bottom: 15%;
         box-shadow : 0 0 10px -2px #ddd ;
-        height:50%;
-        width: 203%;
-        margin-top: 20%;
-        margin-bottom: 20%;
-        box-shadow : 0 0 10px -4px #000 ;
-
     }
     /* slider buttons links&rechts*/
     
     .carousel-control-prev,.carousel-control-next{
-      bottom: -1%;
+      bottom: 1%;
 }
     .carousel-control-prev-icon,.carousel-control-next-icon {
       height: 50px;
@@ -194,40 +248,15 @@ body, html {
       font-size: 40px;
       color: black;
 }
-    /*slider text*/
+/*    /slider text/*/
     
     .carousel-item {
         color: black;
         bottom: 100%;
-        font-size: 20px;
-        margin-left: -10%;
-        margin-top:10%;
+        font-size: 16px;
+        font-family:Verdana;
         
 }
-
-/*    video slider*/
-
-    
-    embed{
-        float: right;
-        margin-top: -8%;
-    }
-
-
-
-/*    Youtube placeholder*/
-
-.yt_place {
-    margin-left:6%;
-    height:100%;
-    width:100%;
-    padding:1%;
-}
-.reviews {
-    background-color:white;
-    margin-top:1%;
-}
-
 
 
 /* offerte button */
@@ -235,7 +264,7 @@ body, html {
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #202020;
+  background-color: #d11f39;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -245,7 +274,7 @@ body, html {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  font-family: PF Din Stencil, Verdana;
+  font-family:pf_din_stencilbold, Verdana;
 }
 
 .button span {
@@ -271,24 +300,39 @@ body, html {
   opacity: 1;
   right: 0;
 }
-
-/*De teksten*/
+.icon{
+/*    margin-left:88%;*/
+    margin-top:10px;
+     background-color: #202020;
+     margin-bottom:1%;
+}
+/*/De teksten/*/
 
 .tekst {
     margin-top:5%;
+
+}
+.tekst_2{
+        margin-left:5%;
+            font-family:Verdana;
 }
 .tekst p {
     font-family:Verdana;
 }
 .tekst h1 {
-    font-family:PF Din Stencil, Verdana;
+    font-family:pf_din_stencilbold, Verdana;
 }
 
 h2 {
 text-align: center;
-}
-/*Footer*/
+color: #d11f39;
 
+}
+/*/Footer/*/
+.foot{
+    background-color: #202020;
+    height:10%;
+}
 .footer {
  
    left: 0;
@@ -297,6 +341,93 @@ text-align: center;
    background-color: #202020;
    color: white;
    text-align: left;
-   height: 17%
 }
 
+/*FOTO GALLERY*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.gallery > div {
+  position: relative;
+  padding: 5px;
+  display:inline-block;
+}
+.gallery > div > img {
+  display:inline-block;
+  width: 13em;
+  height:auto;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+@media (min-width:1000px){
+    .kvertellen{
+    margin-left:5%;
+    }
+}
+.kvertellen{
+    margin-top:5%;
+/*    zodat je de border niet ziet*/
+    padding: 0px;
+        margin-left:5%;
+}
+
+.touw {
+align-items: center;
+justify-content: center;
+}
+@media (max-width: 880px){
+    .Z_tekst{
+        display:none;
+        font-family:pf_din_stencilbold, Verdana;
+    }
+    .F_tekst{
+        display:none;
+    }
+}
+h5{
+    text-align: center;
+    font-size:1.38rem;
+}
+.link_tekst{
+    color:#d11f39;
+}
+.sub{
+    text-align:center;
+}
+@font-face {
+    font-family: 'pf_din_stencilbold';
+    src: url('pfdinstencil-bold-webfont.woff2') format('woff2'),
+         url('pfdinstencil-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
