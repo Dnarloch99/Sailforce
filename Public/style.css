@@ -343,10 +343,9 @@ color: #d11f39;
 
 .gallery > div {
   position: relative;
-  float: left;
   padding: 5px;
+  display:inline-block;
 }
-
 .gallery > div > img {
   display:inline-block;
   width: 13em;
