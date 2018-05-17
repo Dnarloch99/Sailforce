@@ -1,13 +1,15 @@
 body, html {
     height: 100%;
-    font-family: PF Din Stencil, Verdana; 
+    font-family:pf_din_stencilbold, Verdana; 
 }
 .container {
     width:100%;
 }
 .row {
     width:100%;
+    margin-top:5% !important;
 }
+
 
 /*    Header*/
     
@@ -40,7 +42,7 @@ h1 {
 }
 
 .Z_tekst {
-    font-family: PF Din Stencil;
+    font-family:pf_din_stencilbold;
     font-size: 3.5vmin;
 }
 .interior-header img {
@@ -79,7 +81,7 @@ h1 {
 
 .button_titel {
     font-size:125%;
-    font-family: PF Din Stencil, Verdana;
+    font-family:pf_din_stencilbold, Verdana;
 }
 
 /* navbar*/ 
@@ -109,7 +111,7 @@ h1 {
 }
 
 .navbar-style {
-    font-family: PF Din Stencil, Verdana;
+    font-family:pf_din_stencilbold, Verdana;
 }
 
 .navbar-style * {
@@ -236,7 +238,8 @@ h1 {
     .carousel-item {
         color: black;
         bottom: 100%;
-        font-size: 20px;
+        font-size: 16px;
+        font-family:Verdana;
         
 }
 
@@ -256,7 +259,7 @@ h1 {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  font-family: PF Din Stencil, Verdana;
+  font-family:pf_din_stencilbold, Verdana;
 }
 
 .button span {
@@ -284,7 +287,7 @@ h1 {
 }
 .icon{
 /*    margin-left:88%;*/
-    margin-top:1%;
+    margin-top:10px;
      background-color: #202020;
      margin-bottom:1%;
 }
@@ -302,7 +305,7 @@ h1 {
     font-family:Verdana;
 }
 .tekst h1 {
-    font-family:PF Din Stencil, Verdana;
+    font-family:pf_din_stencilbold, Verdana;
 }
 
 h2 {
@@ -313,6 +316,7 @@ color: #d11f39;
 /*/Footer/*/
 .foot{
     background-color: #202020;
+    height:10%;
 }
 .footer {
  
@@ -322,9 +326,7 @@ color: #d11f39;
    background-color: #202020;
    color: white;
    text-align: left;
-   height: 17%
 }
-
 
 /*FOTO GALLERY*/
 
@@ -388,9 +390,10 @@ color: #d11f39;
 align-items: center;
 justify-content: center;
 }
-@media (max-width: 800px){
+@media (max-width: 880px){
     .Z_tekst{
         display:none;
+        font-family:pf_din_stencilbold, Verdana;
     }
     .F_tekst{
         display:none;
@@ -405,4 +408,12 @@ h5{
 }
 .sub{
     text-align:center;
+}
+@font-face {
+    font-family: 'pf_din_stencilbold';
+    src: url('pfdinstencil-bold-webfont.woff2') format('woff2'),
+         url('pfdinstencil-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
