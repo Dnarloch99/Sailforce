@@ -7,7 +7,7 @@ body, html {
 }
 .row {
     width:100%;
-    margin-top:5% !important;
+    margin-top:2% !important;
 }
 
 
@@ -30,15 +30,17 @@ text-decoration: none;
 h1 {
   position: absolute;
   display: block;
-  width: 35%;
+  width: 46%;
+  height:17%;
   margin-top: -12%;
-  margin-left:60%;
+  margin-left:54%;
   max-width: 55%;
   font-size: 2.6vmin;
   font-family: Verdana;
   padding: .6em 1em .6em 1.7em;
   color:white;
   background:rgba(0,0,0,0.9);
+  text-align:center;
 }
 
 .Z_tekst {
@@ -60,25 +62,6 @@ h1 {
 .button_2 {
     margin-top:15%;
 }
-
-.TB_1 {
-    position:absolute;
-    z-index:1;
-    margin-top:50%;
-    margin-left:15%;
-    color:white;
-    font-family: Verdana;
-}
-
-.TB_2 {
-    position:absolute;
-    z-index:1;
-    margin-top:50%;
-    margin-left:15%;
-    color:white;
-    font-family: Verdana;
-}
-
 .button_titel {
     font-size:125%;
     font-family:pf_din_stencilbold, Verdana;
@@ -207,7 +190,7 @@ h1 {
         background: #fff;
         margin-bottom:5%;
         height:40%;
-        margin-bottom: 15%;
+/*        margin-bottom: 15%;*/
         box-shadow : 0 0 10px -2px #ddd ;
     }
     /* slider buttons links&rechts*/
@@ -379,7 +362,6 @@ color: #d11f39;
     }
 }
 .kvertellen{
-    margin-top:5%;
 /*    zodat je de border niet ziet*/
     padding: 0px;
         margin-left:5%;
