@@ -30,23 +30,60 @@ text-decoration: none;
 h1 {
   position: absolute;
   display: block;
-  width: 46%;
+  /*width: 46%;*/
   height:17%;
   margin-top: -12%;
-  margin-left:54%;
-  max-width: 55%;
+  margin-left:61%;
+  /*max-width: 55%;*/
   font-size: 2.6vmin;
   font-family: Verdana;
-  padding: .6em 1em .6em 1.7em;
+  padding: .6em 1em .6em 0em;
   color:white;
   background:rgba(0,0,0,0.9);
-  text-align:center;
+  text-align:right;
 }
 
 .Z_tekst {
     font-family:pf_din_stencilbold;
     font-size: 3.5vmin;
+    float:right;
 }
+.A_tekst{
+ 
+    float:right;
+ 
+    margin-top:3%;
+ 
+    font-size: 2.4vmin;
+ 
+      text-align:right;
+}
+.F1{
+ 
+margin-left:60%;
+ 
+}
+ 
+.F2{
+ 
+   margin-left:66.5%;
+ 
+}
+ 
+.F3{
+ 
+   margin-left:66%;
+ 
+   /*padding-left:2%;*/
+ 
+}
+ 
+.F4{
+ 
+   margin-left:81%;
+ 
+}
+ 
 .interior-header img {
   display: block;
   position: relative;
@@ -91,7 +128,7 @@ h1 {
     .navbar-expand-custom .navbar-toggler {
         display: none;
     }
-}
+}}
 
 .navbar-style {
     font-family:pf_din_stencilbold, Verdana;
@@ -136,7 +173,8 @@ h1 {
 }
 /*    /parallax css/*/
  
-.parallax {
+@media (min-width: 880px) {.parallax {
+ 
     /* The image used */
     
     background-image: url(sailforce_trip_11.jpeg);
@@ -154,8 +192,9 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     
-}
-.parallax2 {
+}}
+@media (min-width: 880px) {.parallax2 {
+ 
     /* The image used */
     
     background-image: url(sailforce_trip_36.jpeg);
@@ -173,7 +212,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     
-}
+}}
 /*    /slider/*/
 .slider{
     padding-left:12%;
