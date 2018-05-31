@@ -80,7 +80,8 @@ margin-left:60%;
  
 .F4{
  
-   margin-left:81%;
+   margin-left:74%;
+   padding-left:100px;
  
 }
  
@@ -172,7 +173,12 @@ margin-left:60%;
     color:white;
 }
 /*    /parallax css/*/
- 
+@media (min-width: 880px) {.tellfoto{
+        display:none;
+}}
+@media (max-width: 880px) {.tellfoto{
+        width:100%;
+}}
 @media (min-width: 880px) {.parallax {
  
     /* The image used */
